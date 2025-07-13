@@ -332,7 +332,6 @@ html, body {
 
 /* About CSS */
 
-
 .about{
     display: flex;
     flex-direction: column;
@@ -456,6 +455,66 @@ html, body {
     animation: bounceDown 1s infinite;
      box-shadow: 0 4px 8px rgba(244, 244, 244, 0.5);
     cursor: pointer;
+}
+
+@media (max-width:768px){
+    .about{
+        display: flex;
+        flex-direction: column;
+        background:linear-gradient(to right, #540c54 0%,#540c54 25%, #18041c);
+        height: 100vh;
+        width: 100%;
+        overflow: hidden;
+    }
+    .about h1{
+        align-self: center;
+        margin-top: 15px;
+        text-shadow:2px 2px 5px #a27c51;
+    }
+    .about-main{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;           /* Allow wrapping */
+        align-items: flex-start;
+        justify-content: center;
+        height: auto;              /* Let height grow */
+        margin-top: 20px;
+    }
+    .about-img{
+        width: 100%;
+        height: auto;
+        margin-top: -20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-img img{
+        width: 80%;
+        border-radius: 1000px;
+    }
+    .about-text{
+        width: 80%;
+        height: auto;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-right: 0;
+        margin-top: 20px;
+        clear: both;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about-text p{
+        color: #f5e3f5;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .skills-bottom{
+        margin-top: 0px;
+    }
 }
 /* Form CSS */
 
