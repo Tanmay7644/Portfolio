@@ -622,7 +622,6 @@ html, body {
     color: #18041c;
     font-weight: bold;
     cursor: pointer;
-
     transition: transform 0.3s ease;
 }
 
@@ -700,7 +699,7 @@ html, body {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-top: -100px;
+        margin-top: -50px;
     }
     .form-text input{
         width: 100%;
@@ -712,7 +711,8 @@ html, body {
     }
     .form-text button{
         position: relative;
-        left: 69px;
+        left: 80px;
+        margin-top: 10px;
     }
     
 }
