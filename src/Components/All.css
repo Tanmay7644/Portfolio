@@ -827,13 +827,40 @@ html, body {
     cursor: pointer;
 }
 
+@media (max-width: 768px) {
+    .project h1{
+        font-size: 20px;
+    }
+    .project-image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 40%;
+        height: 20%;
+        overflow: hidden;
+        position: absolute;
+        /* padding: 10px; */
+    background: linear-gradient(180deg, #18041c , #540c54 );
+        border-radius: 10px;
+        box-shadow: 0 0 20px #17021b;
+        border: 0.1mm solid rgb(255, 255, 255);
+    }
+    .project-image video{
+        width: 100%;
+        /* margin: 5px; */
+        border: none;
+        border-radius: 20px;
+        border: 0.1mm solid #a27c51;
+
+    }
+}
 /* Front CSS */
 .front-container{
     display: flex;
   flex-direction: column;
   width: 100%;
 }
-
 
 @keyframes bounceUp {
   0%, 100% {
