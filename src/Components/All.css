@@ -837,7 +837,7 @@ html, body {
         align-items: center;
         flex-direction: column;
         width: 40%;
-        height: 20%;
+        height: 30%;
         overflow: hidden;
         position: absolute;
         /* padding: 10px; */
@@ -851,7 +851,7 @@ html, body {
         /* margin: 5px; */
         border: none;
         border-radius: 20px;
-        border: 0.1mm solid #a27c51;
+        /* border: 0.1mm solid #a27c51; */
 
     }
 }
