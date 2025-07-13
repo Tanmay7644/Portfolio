@@ -714,7 +714,9 @@ html, body {
         left: 80px;
         margin-top: 10px;
     }
-    
+    .form-prev{
+        margin-top: -20px;
+    }
 }
 /* Project CSS */
 
