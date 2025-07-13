@@ -493,7 +493,7 @@ html, body {
         border-radius: 1000px;
     }
     .about-text{
-        width: 80%;
+        width: 90%;
         height: auto;
         color: black;
         display: flex;
@@ -514,6 +514,12 @@ html, body {
 
     .skills-bottom{
         margin-top: 0px;
+    }
+    .about h1{
+        align-self: center;
+        margin-top: 15px;
+        font-size: 20px;
+        text-shadow:2px 2px 5px #a27c51;
     }
 }
 /* Form CSS */
