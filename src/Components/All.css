@@ -196,6 +196,9 @@ body, html, * {
 }
 
 @media (max-width:768px){
+    body{
+        overflow: hidden;
+    }
     .navbar{
         width: 97%;
     }
