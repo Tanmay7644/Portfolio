@@ -326,7 +326,7 @@ html, body {
         animation: bounceUp 1s infinite;
         box-shadow: 0 4px 8px rgba(244, 244, 244, 0.5);
         cursor: pointer;
-        margin-top: 20px;
+        margin-top: 5px;
     }
 }
 
