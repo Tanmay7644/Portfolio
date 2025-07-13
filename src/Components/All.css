@@ -1,4 +1,4 @@
-/* Navbar CSS */
+
 ::-webkit-scrollbar {
   display: none;
 }
@@ -14,6 +14,8 @@ body, html, * {
     /* overflow-x: hidden;  */
     scroll-behavior: smooth;
 }
+/* Navbar CSS */
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -72,6 +74,7 @@ body, html, * {
 .logo{
     margin-left: 40px;
 }
+
 
 
 /* Home CSS */
@@ -192,6 +195,121 @@ body, html, * {
     /* border: 0.1mm solid white; */
 }
 
+@media (max-width:768px){
+    .navbar{
+        width: 97%;
+    }
+    .navbar-links{
+        display: none;
+    }
+    .navbar-contact{
+        margin-right: 10px;
+        width: 100px;
+        height: 28px;
+        border-radius: 30px;
+        border: none;
+        color: white;
+        background-color: #be5ac9;
+        font-weight: bold;
+        transition: transform 0.3s ease;
+        cursor: pointer;
+    }
+    .home{
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        margin-left: -50px;
+        gap: 60px;
+        margin-top: -10px;
+    }
+    .hero{
+        width: 90%;
+        height: 40%;
+    }
+
+    .hero p{
+        font-size: 12px;
+    }
+    .hero h1{
+        font-size: 16px;
+    }
+
+    .main-button{
+        margin-top: 2px;
+        display: flex;
+        gap: 10px;
+    }
+
+    .project-button{
+        width: 100px;
+        height: 20px;
+        border: none;
+        border-radius: 100px;
+        font-size: 10px;
+        background: #f5e3f5;
+        color: #38143c;
+        font-weight: bold;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+    }
+
+    .cv-button{
+        width: 100px;
+        height:20px;
+        border-radius: 100px;
+        border: 0.1mm solid white;
+        color: #fcfcfc;
+        background: #38143c;
+        font-weight: lighter;
+        transition: transform 0.3s ease;
+        cursor: pointer;
+    }
+
+    .connections{
+        display: flex;
+        margin-top: 2px;
+        gap: 15px;
+        margin-left: -2px;
+    }
+
+    .connections img{
+        height: 30px;
+        border-radius: 100px;
+        cursor: pointer;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .shinchan{
+        width: 80%;
+        height: 40%;
+    }
+    .shinchan img{
+        margin-left: -40px;
+        height: 250px;
+        width: auto;
+    }
+
+    .home-next{
+        width: 40px;
+        height: 40px;
+        border-radius: 100px;
+        border: none;
+        background: linear-gradient(0deg,#ddd9dd,#8b408f);
+        animation: bounceUp 1s infinite;
+        box-shadow: 0 4px 8px rgba(244, 244, 244, 0.5);
+        cursor: pointer;
+        margin-top: 20px;
+        /* border: 0.1mm solid white; */
+    }
+}
 
 /* About CSS */
 
